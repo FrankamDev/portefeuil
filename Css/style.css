@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
-
+* {
+  border: 1px solid red;
+}
 :root {
   --header-height: 3rem;
 
@@ -128,7 +130,6 @@ a {
 img {
   max-width: 100%;
   height: auto;
-  
 }
 
 /* resuable css class  */
@@ -212,7 +213,7 @@ img {
     background-color: var(--body-color);
     padding: 2rem 1.5rem 4rem;
     box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
- border-radius: 50%;
+    border-radius: 50%;
     transition: 0.3s;
   }
 }
@@ -292,7 +293,6 @@ img {
 .home-blob-img {
   width: 240px;
   height: 170%;
-  
 }
 
 .home-data {
@@ -347,7 +347,7 @@ img {
 .button {
   display: inline-block;
   background-color: var(--first-color);
-  
+
   color: #fff;
   padding: 1rem;
   border-radius: 0.5rem;
@@ -449,7 +449,7 @@ img {
   margin-right: 1rem;
   font-size: var(--small-font-size);
   background: var(--first-color-lighter);
-  
+
   border-radius: 5px;
   font-weight: 600;
   color: var(--title-color);
@@ -646,7 +646,6 @@ img {
   width: 265px;
   border-radius: 50%;
   justify-self: center;
-  
 }
 
 .portfolio-title {
